@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  header.global-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 0 2rem;
+    .user-section{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+      &:hover{
+        color: lawngreen;
+      }
+      .user-avatar{
+        border: 1px solid gray;
+        border-radius: 25px;
+        max-height: 50px;
+        overflow: hidden;
+        img{
+          max-height: 50px;
+        }
+      }
+
+    }
+  }
+}
+

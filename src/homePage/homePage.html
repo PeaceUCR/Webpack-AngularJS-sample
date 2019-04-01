@@ -1,0 +1,12 @@
+<div>
+   <form name="contactForm" ng-init="hp.formInit()" ng-submit="hp.submit()">
+       <h1>Please submit your contact information</h1>
+       <div><label>Name</label><input type="text" placeholder="your name" name="name" ng-model="hp.name" pattern="[A-Za-z]{3}" required><span>{{contactForm.name.$valid}}</span></div>
+       <div><label>Date of Birth</label><input type="text" placeholder="yyyy/mm/dd" name="dob" ng-model="hp.dob" required><span>{{contactForm.dob.$valid}}</span></div>
+       <div><label>Phone(US only)</label><input type="text" placeholder="(xxx)xxx-xxxx" name="phone" ng-model="hp.phone" required><span>{{contactForm.phone.$valid}}</span></div>
+       <div><label>Email</label><input type="email" placeholder="xxx@xxx.com" name="email" ng-model="hp.email" required><span>{{contactForm.email.$valid}}</span></div>
+       <div><input type="submit"></div>
+   </form>
+    <h1><span>Form is valid?</span>{{contactForm.$valid}}</h1>
+    <p><a href="https://www.w3schools.com/angular/angular_validation.asp" target="_blank">AngularJS form related</a></p>
+</div>
