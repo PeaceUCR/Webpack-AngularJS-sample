@@ -1,3 +1,5 @@
+# This project develop before https://github.com/PeaceUCR/TW-Homework and https://github.com/PeaceUCR/TW-Homework-Onsite Please also check their code unit_test as well, this is mainly for configuration & import
+
 Base on https://github.com/PeaceUCR/Webpack_GetStart
 
 https://dmachat.github.io/angular-webpack-cookbook/Angular-Template-Cache.html
